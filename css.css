@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+    background-color: #05020A;
+    font-family: Montserrat;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1ic 2ic 1ic 2ic;
+    padding: 0.5ic 0.5ic 0.5ic 0.5ic;
+    background-color: #392A57;
+    border-radius: 10px;
+    border-color: #AB7C94;
+    border-width: 5px;
+    flex-wrap: wrap;
+}
+header h1{
+    background-color: #392A57;
+    color: #AB7C94;
+    padding-left: 1.5ic;
+    flex-wrap: nowrap;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #392A57;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 1.5ic;
+    flex-wrap: nowrap;
+}
+header nav a{
+    background-color: #392A57;
+    padding: 0ic 0ic 0ic 1.5ic; ;
+    align-items: center;
+
+}
+
+header nav a svg{
+    background-color: #392A57;
+    fill:#AB7C94;
+
+    width: 1.5ic;
+    height: 1.5ic;
+
+}
+header nav a :hover{
+    fill:aliceblue;
+}
+
+
+/*Main*/
+main{
+    margin: 2ic 2ic 2ic 2ic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.about_me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+section.about_me div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.about_me div p{
+    font-size: 1.5ic;
+    width: 30ic;
+}
+section.about_me div img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.Nadic_Style{
+    font-style: none;
+    color:#5f91e8;
+    font-weight: 900;
+}
+.Nadic_Style:hover{
+    color:#0a4ab9;
+    font-weight: 900;
+}
