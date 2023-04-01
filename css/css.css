@@ -454,98 +454,7 @@ div.open_project{
 }
 
 
-/*min-max
-
-#button_icon_IA_close{
-    display:none;
-}
-#button_icon_IA_on{
-    display:flex;
-}
-
-
-#IA_max:hover div{
-    position:relative;
-    display:flex; 
-}
-#IA_max:hover #button_icon_IA_on{
-    display:none;
-}
-#IA_max:hover #button_icon_IA_close{
-    display:flex;
-}
-
-
-#button_Pile_oc{
-    display:none;
-}
-#button_icon_Pile_close{
-    display:none;
-}
-#button_icon_Pile_on{
-    display:flex;
-}
-
-
-#Pile_max:hover div{
-    position:relative;
-    display:flex; 
-}
-#Pile_max:hover #button_icon_Pile_on{
-    display:none;
-}
-#Pile_max:hover #button_icon_Pile_close{
-    display:flex;
-}
-
-
-#button_Election_oc{
-    display:none;
-}
-#button_icon_Election_close{
-    display:none;
-}
-#button_icon_Election_on{
-    display:flex;
-}
-
-#Election_max:hover div{
-    position:relative;
-    display:flex; 
-}
-#Election_max:hover #button_icon_Election_on{
-    display:none;
-}
-#Election_max:hover #button_icon_Election_close{
-    display:flex;
-}
-
-#Cores_max:hover div{
-    position:relative;
-    display:flex; 
-}
-#Cores_max:hover #button_icon_Cores_on{
-    display:none;
-}
-#Cores_max:hover #button_icon_Cores_close{
-    display:flex;
-}
-
-
-#button_Cores_oc{
-    display:none;
-}
-#button_icon_Cores_close{
-    display:none;
-}
-#button_icon_Cores_on{
-    display:flex;
-}
-
-
-input#item-1{
-    display: none;
-}*/
+/*on-close*/
 input{display: none;}
 .info{display: none;}
 .title:hover{cursor:pointer;}
@@ -560,15 +469,6 @@ input:checked + .info {
     transition: transform .3s ease;
 }
 
-
-
-#Election_max{
-    display:flex; 
-}
-
-#Cores_max{
-    display:flex; 
-}
 
 .responsive {
     width:auto;
