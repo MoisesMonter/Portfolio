@@ -322,7 +322,7 @@ section.about_me div img{
 @media (max-width: 1230px){
     section.project{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-start;
 
         border-radius: 10px;
@@ -334,10 +334,12 @@ section.about_me div img{
     }
     section.project div{
         display: flex;
-        flex-direction:column;  
+        flex-direction:column-reverse;  
         justify-content: space-between;
         align-items: center;
         background-color: #5f91e8;
+        width: 100%;
+        height: 100%;
         border-radius: 10px;
         border-width: 5px;
     }
@@ -348,9 +350,11 @@ section.about_me div img{
 @media (min-width: 1230px){
     section.project{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-start;
         background-color: #1754be;
+        width: 100%;
+        height: 100%;
         border-radius: 10px;
         border-width: 5px;
     }
@@ -364,6 +368,8 @@ section.about_me div img{
         justify-content: space-between;
         align-items: center;     
         background-color: #5f91e8;
+        width: 100%;
+        height: 100%;
         border-radius: 10px;
         border-width: 5px;
     }
@@ -401,6 +407,7 @@ section.project form{
 
 a{
     text-decoration: none;
+    word-break:keep-all;
 }  
 button#search-button  {
     margin: 0.2ic 7.0ic 0.2ic 0.2ic;
@@ -439,18 +446,16 @@ div.open_project{
 }
 
 .open_project p{
-    margin:0.5ic;
-    word-break: break-word;
+    padding:1.0ic;
+    word-break: break-all;
 }
 .open_project img{
     border-radius: 2%;
 }
 
 
-/*min-max*/
-#button_IA_oc{
-    display:none;
-}
+/*min-max
+
 #button_icon_IA_close{
     display:none;
 }
@@ -538,14 +543,24 @@ div.open_project{
 }
 
 
+input#item-1{
+    display: none;
+}*/
+input{display: none;}
+.info{display: none;}
+.title:hover{cursor:pointer;}
 
 
 
+input:checked + .info {
+    display: flex;
 
-
-#Pile_max{
-    display:flex; 
 }
+.info::after{
+    transition: transform .3s ease;
+}
+
+
 
 #Election_max{
     display:flex; 
@@ -556,6 +571,6 @@ div.open_project{
 }
 
 .responsive {
-    width: 100%;
+    width:auto;
     height: 100%;
   }
